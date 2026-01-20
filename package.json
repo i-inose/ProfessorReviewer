@@ -1,0 +1,33 @@
+{
+  "name": "professorreviewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "mastra start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "@mastra/core": "^1.0.0-beta.25",
+    "@mastra/evals": "^1.0.0-beta.5",
+    "@mastra/libsql": "^1.0.0-beta.13",
+    "@mastra/loggers": "^1.0.0-beta.4",
+    "@mastra/memory": "^1.0.0-beta.15",
+    "@mastra/observability": "^1.0.0-beta.13",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "mastra": "^1.0.0-beta.17",
+    "typescript": "^5.9.3"
+  }
+}
